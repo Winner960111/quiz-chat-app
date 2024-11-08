@@ -1,1 +1,1 @@
-const apiKey = "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"; // Update with chatgpt Api key
+const apiKey = "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"; // Update with chatgpt Api key

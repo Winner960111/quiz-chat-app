@@ -1,1 +1,1 @@
-const apiKey = ""; // Update with chatgpt Api key
+const apiKey = "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"; // Update with chatgpt Api key

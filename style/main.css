@@ -1,0 +1,79 @@
+#login-screen {
+    width: 100%;
+    margin-top: -50px;
+
+    button img {
+        margin: 0 0 -3px;
+        height: 20px;
+        width: 20px;
+    }
+
+    #toggleButton {
+        background: none;
+        border: none;
+        text-decoration: underline;
+    }
+
+    #toggleButton:hover {
+        background: none;
+        color: var(--font-color);
+    }
+}
+
+#category-selection button, #settings-screen button {
+    margin: 10px;
+}
+
+#category-selection, #settings-screen, #main-menu {
+    display: none;
+    width: 100%;
+}
+
+#welcome {
+    font-size: 24px;
+}
+
+.toggle-wrapper {
+    display: flex;
+}
+
+#admin-page-button {
+    display:none;
+}
+
+#start-quiz-button:disabled {
+    background-color: var(--background-hover-color);
+    cursor: not-allowed;
+}
+
+#start-quiz-button:disabled:hover {
+    color: var(--theme-color) !important;
+    background-color: var(--background-hover-color);
+}
+
+#selected-topics {
+    margin: 50px 10px 5px !important;   
+}
+
+.warning {
+    color: var(--error-color);
+}
+
+.chips-container {
+    margin: 5px 5px 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.chip {
+    display: inline-block;
+    padding: 0 10px;
+    margin: 5px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 16px;
+    border: solid 1px var(--border-color);
+    background-color: var(--background-color);
+    color: var(--theme-color);
+}

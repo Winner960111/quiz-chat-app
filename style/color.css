@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --background-color: #0066cc;
+    --background-hover-color: #eed813;
+    --popup-background-color: rgba(0, 0, 0, 0.7);
+    --font-color: #ffffff;
+    --font-secondary-color: #002366;
+    --theme-color: #ffcc00;
+    --theme-secondary-color: #aca712;
+    --theme-mix-color: #3394dd;
+    --border-color: #2e3490;
+
+    --main-margin: 50px;
+
+    --correct-color: #00e676;
+    --wrong-color: #ff5252;
+}

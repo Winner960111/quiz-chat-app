@@ -1,0 +1,1 @@
+const apiKey = ""; // Update with chatgpt Api key

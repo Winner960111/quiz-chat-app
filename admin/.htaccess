@@ -1,0 +1,9 @@
+# Disable directory indexing
+Options -Indexes
+
+# Basic Authentication Settings
+# Password generator: https://hostingcanada.org/htpasswd-generator/
+AuthType Basic
+AuthName "Restricted Area"
+AuthUserFile /var/www/customers/vh-15790/web/home/Content/charityQuizApp/admin/.htpasswd
+Require valid-user
